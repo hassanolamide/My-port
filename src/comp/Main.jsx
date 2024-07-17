@@ -5,7 +5,7 @@ import {FaFacebook,FaInstagram,FaTwitter,FaWhatsapp }from 'react-icons/fa'
 const Main = () => {
   return (
     <div>
-       <img className=' flex w-full h-screen object-center scale-x-[-1]  justify-center items-center' src={img} alt="" />
+       <img style={{objectPosition:"25% 25%"}}  className=' flex w-full object-cover h-screen   scale-x-[-1]  justify-center items-center' src={img} alt="" />
        <div className='w-full h-screen absolute top-0 bg-black/50'>
        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
         <h1 className='sm:text-5xl text-4xl text-white '>I'm HASSAN OLA</h1>
