@@ -1,4 +1,4 @@
-import React from 'react'
+
 import img from './IMG-20240611-WA0163.jpg'
 import {TypeAnimation} from 'react-type-animation'
 import {FaFacebook,FaInstagram,FaTwitter,FaWhatsapp }from 'react-icons/fa'

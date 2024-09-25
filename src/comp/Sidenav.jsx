@@ -1,4 +1,4 @@
-import React ,{useState}from'react'
+import {useState}from'react'
 import {AiOutlineMenu, AiOutlineHome ,AiOutlineProject, AiOutlineMail } from 'react-icons/ai'
 import {GrProjects} from  'react-icons/gr'
 import {BsPerson} from  'react-icons/bs'
@@ -9,11 +9,12 @@ const Sidenav =()  =>{
     const handleNav =() => {
         setNav(!nav);
     }
-    return[
+    return(
         <div>
             <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
             {
                 nav ? [
+                    // eslint-disable-next-line react/jsx-key
                     <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
                         <a onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <AiOutlineHome size={20}/> 
@@ -63,6 +64,6 @@ const Sidenav =()  =>{
                 </div>
             </div>
         </div>
-    ];
+    );
 };
 export default Sidenav  
