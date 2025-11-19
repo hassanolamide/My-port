@@ -14,14 +14,14 @@ const data = [
     title: "Soair",
     duration: "3 years",
     details:
-      "During my 3-year tenure at SOAIR, a leading SOAIR solutions provider, I played a pivotal role in developing robust and scalable web applications. As a full stack developer, I worked closely with cross-functional teams to build and maintain the company's flagship software products, Engineered responsive and intuitive user interfaces using React, html,css, Redux, and modern JavaScript frameworks.",
+      "Full Stack Developer at SOAIR (3 years). Built and maintained scalable web applications and responsive UIs using React, Redux, and modern JavaScript frameworks.",
   },
   {
     year: 2019,
     title: "OOU",
     duration: "5 years",
     details:
-      "As part of my academic journey, I had the opportunity to work on a project named DocMySkin,a web-based platform designed to enhance dermatological care. This project allowed me to apply my skills in web development and contribute to a meaningful solution.Working in collaboration with a team of fellow students, I played a crucial role in developing the DocMySkin website.",
+      "I graduated with a Second Class Upper in Computer Engineering. During my studies, I co-developed DocMySkin, a web-based platform for enhanced dermatological care. This project allowed me to apply my web development skills within a collaborative student team.",
   },
 ];
 const Work = () => {
